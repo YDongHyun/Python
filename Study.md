@@ -4,6 +4,11 @@
 
 여러 자료형을 받아 각각의 함수가 입력으로 들어간 다음 나오는 출력값을 리스트로 돌려줌 
 
-ex) A,B = map(int(input().split()) print(A+B)
+Ex )
+
+ `A,B = map(int(input().split())`
+
+ `print(A+B)`
+
 
 
