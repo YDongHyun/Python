@@ -80,4 +80,6 @@ while(number!=0):
 원소는 int 값
 
 **3. map 함수를 활용하여 원소값 더하기**
-'''sum(map(int, str(number))'''
+```
+sum(map(int, str(number))
+```
