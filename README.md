@@ -1,3 +1,3 @@
-# python
+# Python
 
-파이썬을 공부하고 정리하는 곳입니다.
+This is where you study and organize Python
