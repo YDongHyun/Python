@@ -6,7 +6,7 @@
 
 Ex )
 
- `A,B = map(int(input().split())` # A, B 입력
+ `A,B = map(int.input().split())` # A, B 입력
 
  `print(A+B)` # A+B 출력
 
