@@ -83,3 +83,21 @@ while(number!=0):
 ```
 sum(map(int, str(number))
 ```
+
+#### sys 모듈
+
+sys 모듈은 파이썬 인터프리터가 제공하는 변수와 함수를 직접 제어할 수 있게 해주는 모듈.
+
+EX)
+
+```
+#input 대신 sys.stdin.readline 출력 속도 증가
+import sys
+
+T = int(sys.stdin.readline())
+
+for i in range(0,T) :
+    A,B = map(int,sys.stdin.readline().split())
+    print(A+B)
+```
+
