@@ -107,3 +107,8 @@ for i in range(0,T) :
 try:
 except EOFError: # 예외 값을 받을경우 (파일의 끝)
 ```
+```
+n = 12345
+n_list = list(map(int, str(n)))
+// [1, 2, 3, 4, 5]
+```
