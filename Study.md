@@ -9,6 +9,8 @@ Ex )
  `A,B = map(int.input().split())` # A, B 입력
 
  `print(A+B)` # A+B 출력
+ 
+
 
 #### -자료형
 
@@ -116,3 +118,6 @@ n_list = list(map(int, str(n)))
 // [1, 2, 3, 4, 5]
 ```
 특정 요소의 개수를 구하는 함수 count
+
+
+[int(x) for x in input().split()]
