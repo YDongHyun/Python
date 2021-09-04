@@ -121,3 +121,6 @@ n_list = list(map(int, str(n)))
 
 
 [int(x) for x in input().split()]
+
+
+format(a,".2f") #소수점 2자리까지 
