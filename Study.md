@@ -101,3 +101,9 @@ for i in range(0,T) :
     print(A+B)
 ```
 
+#### 예외 처리
+
+```
+try:
+except EOFError: # 예외 값을 받을경우 (파일의 끝)
+```
