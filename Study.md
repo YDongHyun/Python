@@ -119,7 +119,7 @@ n_list = list(map(int, str(n)))
 // [1, 2, 3, 4, 5]
 ```
 특정 요소의 개수를 구하는 함수 count
-
+뒤집기 함수 reverse()
 
 [int(x) for x in input().split()]
 
