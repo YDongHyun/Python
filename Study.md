@@ -121,6 +121,14 @@ n_list = list(map(int, str(n)))
 특정 요소의 개수를 구하는 함수 count
 뒤집기 함수 reverse()
 
+리스트를 문자열로 합치기
+```
+l = ['d', 'a', 't', 'a']
+
+print(''.join(l)) #data
+print('_'.join(l)) #d_a_t_a
+```
+
 [int(x) for x in input().split()]
 
 
