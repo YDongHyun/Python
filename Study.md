@@ -117,6 +117,8 @@ except EOFError: # 예외 값을 받을경우 (파일의 끝)
 n = 12345
 n_list = list(map(int, str(n)))
 // [1, 2, 3, 4, 5]
+
+[int(x) for x in input().split())
 ```
 특정 요소의 개수를 구하는 함수 count
 뒤집기 함수 reverse()
