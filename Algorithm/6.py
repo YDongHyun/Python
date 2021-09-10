@@ -13,3 +13,28 @@
 
 김우현을 위해 x지점부터 정확히 y지점으로 이동하는데 필요한 공간 이동 장치 작동 횟수의 최솟값을 구하는 프로그램을 작성하라.
 '''
+
+import sys
+n= int(sys.stdin.readline())
+
+for i in range(n):
+    x, y =map(int,sys.stdin.readline().split())
+    a=y-x
+    k=(int(a**(1/2)))
+    t=(k**2)
+  
+    if a-t == 0:
+        k=2*k-1
+    elif (a-t)%(k)==0:
+        k=(2*k-1)+(a-t)/k
+
+    
+    else :
+        if (a-t)/k >=0:
+            if (a-t)-((a-t)//k)*k<k:
+                k=2*k+(a-t)//k
+            else:
+                k=(2*k-1)+((a-t)//k)+((a-t)-((a-t)//k)*k)
+        else:
+            k=(2*k-1)+(a-t)
+    print(int(k))
