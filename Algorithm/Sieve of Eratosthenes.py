@@ -1,5 +1,5 @@
 M,N=map(int,input().split())
-a = [False,False] + [True]*(N)
+a = [False,False] + [True]*(N)   #[False,False,True*N번] 의 리스트를 만듬. False는 0과 1
 primes=[]
 
 for i in range(2,N+1):
