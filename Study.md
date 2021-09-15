@@ -123,7 +123,7 @@ n_list = list(map(int, str(n)))
 특정 요소의 개수를 구하는 함수 count
 뒤집기 함수 reverse()
 
-##리스트를 문자열로 합치기
+## 리스트를 문자열로 합치기
 join 함수는 문자열만 있을떄
 ```
 l = ['d', 'a', 't', 'a']
@@ -133,7 +133,16 @@ print('_'.join(l)) #d_a_t_a
 ```
 
 [int(x) for x in input().split()]
-
+```
+if item in list: 
+ print('리스트에 값이 있습니다.') 
+else: 
+ print('리스트에 값이 없습니다.')
+if item not in list: 
+ print('리스트에 값이 없습니다.') 
+else: 
+  print('리스트에 값이 있습니다.')
+```
 
 format(a,".2f") #소수점 2자리까지 
 
