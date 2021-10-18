@@ -10,3 +10,5 @@ electronic engeeniering
 -Deep learning
 
 -algorism
+
+-SQ
