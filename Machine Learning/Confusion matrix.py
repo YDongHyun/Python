@@ -47,4 +47,3 @@ ax.set(title='Confusion Matrix',
             ylabel='True label',
             xlabel='Predicted label')
 fig.savefig("decistion_tree.png")
-elice_utils.send_image("decistion_tree.png")
