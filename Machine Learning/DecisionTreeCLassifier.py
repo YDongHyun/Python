@@ -21,7 +21,7 @@ Y = df['클래스']
 train_X, test_X, train_Y, test_Y = train_test_split(X, Y, test_size=0.2, random_state = 42)
 
 # DTmodel에 의사결정나무 모델을 초기화 하고 학습
-DTmodel = DecisionTreeClassifier()
+DTmodel = DecisionTreeClassifier(max_depth=2)
 DTmodel.fit(train_X, train_Y)
 
 
