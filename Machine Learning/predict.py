@@ -11,12 +11,12 @@ Y = [5.64413093, 3.75876583, 3.87233310, 4.40990425, 6.43845020, 4.02827829, 2.2
 train_X = pd.DataFrame(X, columns=['X'])
 train_Y = pd.Series(Y)
 
-# 모델을 트레이닝합니다.
+# 모델을 트레이닝
 lrmodel = LinearRegression()
 lrmodel.fit(train_X, train_Y)
 
 """
-1. train_X에 대해서 예측합니다.
+1. train_X에 대해서 예측
 """
 pred_X = lrmodel.predict(train_X)
 print('train_X에 대한 예측값 : \n{}\n'.format(pred_X))
