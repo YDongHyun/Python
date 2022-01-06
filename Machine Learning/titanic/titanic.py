@@ -17,3 +17,8 @@ titanic_df.head()
 titanic_df['Age_0'] = 2
 print(titanic_df.head())
 
+for dataset in train_test_data:
+    dataset["Age"].fillna(dataset["Age"].mean(), inplace=True)
+
+for dataset in train_test_data:
+    dataset['Embarked'].fillna('S', inplace=True)
