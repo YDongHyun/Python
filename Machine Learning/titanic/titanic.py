@@ -22,3 +22,4 @@ for dataset in train_test_data:
 
 for dataset in train_test_data:
     dataset['Embarked'].fillna('S', inplace=True)
+
